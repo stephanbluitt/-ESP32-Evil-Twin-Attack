@@ -5,12 +5,12 @@
 
 ---
 
-## 📜 Overview  
+##  Overview  
 This project demonstrates an **Evil Twin attack** using an ESP32 microcontroller. It combines a deauthentication attack to disconnect devices from a target WiFi network and a captive portal to capture credentials via a rogue access point.
 
 ---
 
-## 🚀 Features  
+##  Features  
 - **Deauthentication Attack**: Forces devices offline using forged WiFi packets.  
 - **Rogue Access Point**: Spoofs the target network's SSID.  
 - **Captive Portal**: Fake login page (HTML/CSS/JS) to harvest credentials.  
@@ -18,7 +18,7 @@ This project demonstrates an **Evil Twin attack** using an ESP32 microcontroller
 
 ---
 
-## 📦 Prerequisites  
+## Prerequisites  
 ### Hardware  
 - ESP32 development board (e.g., ESP32-WROOM-32).  
 - USB cable (for power/programming).  
@@ -27,13 +27,10 @@ This project demonstrates an **Evil Twin attack** using an ESP32 microcontroller
 - [Arduino IDE](https://www.arduino.cc/en/software)  
 - [ESP32 Board Support](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)  
 - Libraries:  
-  - `ESPAsyncWebServer`  
-  - `AsyncTCP`  
-  - `DNSServer`  
 
 ---
 
-## 🛠️ Setup Guide  
+## Setup Guide  
 
 ### 1. Install Arduino IDE & ESP32 Core  
 1. Open Arduino IDE → **File → Preferences**.  
